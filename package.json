@@ -1,0 +1,25 @@
+{
+  "name": "filemanagementapp",
+  "version": "1.0.0",
+  "description": "File Management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "abhi",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^7.11.2",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.3",
+    "multer": "^1.4.5-lts.1",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
